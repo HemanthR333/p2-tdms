@@ -1,0 +1,92 @@
+.container{
+    height: 700px;
+    width: 700px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.flight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    transform: translateX(-600px);
+}
+
+.flight div{
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+.flight input{
+    margin: 5px 5px;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+.flight select{
+    margin: 10px 10px;
+    padding: 8px 8px;
+    border: none;
+}
+
+.Train{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    transform: translateX(600px);
+}
+
+
+.Train div{
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+.Train input{
+    margin: 5px 5px;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+.Train select{
+    margin: 10px 10px;
+    padding: 8px 8px;
+    border: none;
+}
+
+.flight .number{
+    appearance: none;
+}
+
+.container div .flight-1{
+    width: 5%;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    right: 320px;
+}
+
+.container div .train-1{
+    width: 5%;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    right: 320px;
+}
+.flight.active{
+    transform: translateX(20px);
+}
+.Train.active{
+    transform: translateX(-20px);
+}
+

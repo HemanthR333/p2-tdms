@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <h1>Travel-X</h1>
+            </div>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+        <div class="right-nav">
+            <button class="btn btn-sm">Login</button>
+        </div>
+    </nav>
+    <section class="background first-section" id="home">
+        <div class="box-main">
+            <div class="first">
+                <h1>Enjoy Your Vacation With us</h1>
+                <p>Book tickets to your desired destination</p>
+            </div>
+            <div class="second">
+                <input type="text" name="search" id="search" placeholder="type to search">
+                <button>Search</button></div>
+        </div>
+        <div class="wrapper">
+            <span class="icon-close"><i class="fa-solid fa-x"></i></span>
+    
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon-1"><i class="fa-solid fa-envelope"></i></span>
+                        <input type="email" required>
+                        <label >Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon-1"><i class="fa-solid fa-lock"></i></span>
+                        <input type="password" required>
+                        <label >Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox" name="" id="">Remember me</label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    <button type="submit" class="btn-1">Login</button>
+                    <div class="login-register">
+                        <p>Dont have an account?
+                            <a href="#b" class="register-link">Register</a>
+                        </p>
+    
+                    </div>
+                </form>
+            </div>
+    
+            <div class="form-box register">
+                <h2>Register</h2>
+                <form action="connect.PHP" method="post">
+                    <div class="input-box">
+                        <span class="icon-1"><i class="fa-solid fa-user"></i></span>
+                        <input type="text" name="Username" required>
+                        <label >Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon-1"><i class="fa-solid fa-envelope"></i></span>
+                        <input type="email" name="email" required>
+                        <label >Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon-1"><i class="fa-solid fa-lock"></i></span>
+                        <input type="password" name="password" required>
+                        <label >Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox" name="" id="">I agree to terms & conditions</label>
+                    </div>
+                    <button type="submit" class="btn-1">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account?
+                            <a href="#b" class="login-link">Login</a>
+                        </p>
+    
+                    </div>
+                </form>
+            </div>
+    
+    
+        </div>
+    </section>
+
+
+    <section class="aboutus background" id="about">
+        <div class="about">
+            <h1 class="text-centre">
+                About us
+            </h1>
+            <p class="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsum nihil nobis asperiores nemo voluptates? Amet iste molestiae ducimus, temporibus dolore inventore atque. Voluptates odio recusandae maiores impedit itaque quibusdam commodi! Dolore, maiores dignissimos?</p>
+            <p class="para-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure alias, itaque quis eligendi accusamus officiis. Recusandae vitae, obcaecati at libero ea voluptates eos distinctio?
+            </p>
+        </div>
+        <h1 class="text-centre">Your travel guide</h1>
+        <div class="about-2">
+            <div class="item">
+                <img src="7.jpg" alt="">
+                <p>Hemanth R</p>
+                <p>Ratings-10</p>
+                <button class="btn-3"><i class="fa-brands fa-instagram"></i></button>
+                <button class="btn-3"><i class="fa-brands fa-twitter"></i></button>
+                <button class="btn-3"><i class="fa-brands fa-whatsapp"></i></button>
+            </div>
+            <div class="item">
+                <img src="9.jpg" alt="">
+                <p>Siddarth V</p>
+                <p>Ratings-9.5</p>
+                <button class="btn-3"><i class="fa-brands fa-instagram"></i></button>
+                <button class="btn-3"><i class="fa-brands fa-twitter"></i></button>
+                <button class="btn-3"><i class="fa-brands fa-whatsapp"></i></button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services background" id="services">
+        <h1 class="text-centre">Our Services</h1>
+        <div class="container">
+            <div class="options">
+                <div class="item-1 flights">
+                    <i class="fa-solid fa-plane"></i>
+                    <a href="#a">Flights</a>
+                </div>
+                <div class="item-1 train">
+                    <i class="fa-solid fa-train-subway"></i>
+                    <a href="#a">Trains</a>
+                </div>
+                <div class="item-1 buses">
+                    <i class="fa-solid fa-bus"></i>
+                    <a href="#a">Buses</a>
+                </div>
+                <div class="item-1 hotels">
+                    <i class="fa-solid fa-hotel"></i>
+                    <a href="#a">Hotels</a>
+                </div>
+                <div class="item-1 offers">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <a href="#a">Offers</a>
+                </div>
+            </div>
+            <div class="options-2">
+                <div class="flight">
+                    <div class="contents">
+                        <form action="">
+                            <div>
+                                <label for="trip"><i class="fa-solid fa-user"></i></label>
+                                <select name="trip" id="trip">
+                                    <option value="">Adult</option>
+                                    <option value="">Children</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="direction">From</label>
+                                <input type="text" placeholder="Source">
+                                <label for="direction">To</label>
+                                <input type="text" placeholder="destination">
+                            </div>
+                            <div>
+                                <label for="time">Start</label>
+                                <input type="date" required>
+                                <label for="time">Return</label>
+                                <input type="date">
+                            </div>
+                            <div>
+                                <label for="Customers">Number of passengers</label>
+                                <input type="number" class="number">
+                            </div>
+                            <div><button>Search Flights</button></div>
+                        </form>
+            
+                    </div>
+                </div>
+
+                <div class="trains">
+                    <div class="contents">
+                        <form action="">
+                            <div>
+                                <label for="direction">From</label>
+                                <input type="text" placeholder="Source">
+                                <label for="direction">To</label>
+                                <input type="text" placeholder="destination">
+                            </div>
+                            <div>
+                                <label for="time">Start</label>
+                                <input type="date" required>
+                                <label for="time">Return</label>
+                                <input type="date">
+                            </div>
+                            <div>
+                                <label for="Customers">Number of passengers</label>
+                                <input type="number" class="number">
+                            </div>
+                            <div><button>Search Train</button></div>
+                        </form>
+            
+                    </div>
+                </div>
+
+                <div class="bus">
+                    <div class="contents">
+                        <form action="">
+                            <div>
+                                <label for="direction">From</label>
+                                <input type="text" placeholder="Source">
+                                <label for="direction">To</label>
+                                <input type="text" placeholder="destination">
+                            </div>
+                            <div>
+                                <label for="time">Start</label>
+                                <input type="date" required>
+                            </div>
+                            <div>
+                                <label for="Customers">Number of passengers</label>
+                                <input type="number" class="number">
+                            </div>
+                            <div><button>Search Bus</button></div>
+                        </form>
+            
+                    </div>
+                </div>
+
+                <div class="Hotel">
+                    <div class="contents">
+                        <form action="">
+                            <div>
+                                <label for="direction">Search</label>
+                                <input type="text" placeholder="Search hotels">
+                                <!--<label for="direction">To</label>
+                                <input type="text" placeholder="destination">-->
+                            </div>
+                            <div>
+                                <label for="time">From</label>
+                                <input type="date" required>
+                                <label for="time">Till</label>
+                                <input type="date">
+                            </div>
+                            <div>
+                                <label for="Customers">Number of rooms</label>
+                                <input type="number" class="number">
+                            </div>
+                            <div><button>Search Hotel</button></div>
+                        </form>
+            
+                    </div>
+                </div>
+                  
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="contactus background" id="contact">
+        <h1 class="text-centre">Contact Us</h1>
+        <div class="contact">
+            <p>To contact us dial +91 897654321</p>
+            <div class="icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            
+            
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d91a3d15d2.js" crossorigin="anonymous"></script>"></script>
+</body>
+</html>
